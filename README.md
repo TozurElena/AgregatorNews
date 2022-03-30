@@ -8,3 +8,4 @@
 - Preload with animation (key-frames)
 - Async/await
 - Format the date
+- Adaptive
