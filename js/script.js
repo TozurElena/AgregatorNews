@@ -75,7 +75,7 @@ const renderCard =  (data) => {
 }
 const loadNews = async () => {
   newsList.innerHTML = '<li class="preload"></li>';
-  
+
   const  country = localStorage.getItem('country') || 'be';
   choices.setChoiceByValue(country);
   title.classList.add('hide');
@@ -86,7 +86,7 @@ const loadSearch = async value => {
   
   const data = await getdata(`https://newsapi.org/v2/everything?q=${value}`);
   title.classList.remove('hide');
-  title.textContent = `По вашему запросу “${value}” найдено ${data.articles.length} результатов`;
+  title.textContent = `D'après votre demande “${value}” trouvé  ${data.articles.length} résultats`;
   renderCard(data.articles);
 }
 
