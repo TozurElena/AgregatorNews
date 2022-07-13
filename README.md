@@ -17,4 +17,5 @@
 ### Useful links:
 - [Choices-js](https://github.com/Choices-js/Choices)
 
-## Hosting
+### Hosting
+https://agregator-news.vercel.app/ 
